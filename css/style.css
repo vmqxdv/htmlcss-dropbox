@@ -6,10 +6,6 @@
 /* \GENERALE */
 
 
-.dettagli > div {
-  border: 1px green dotted;
-}
-
 
 /* HEADER */
 header {
@@ -41,12 +37,19 @@ header {
 }
 /* \HEADER */
 
-/* HERO */
+
+
+/* MAIN */
+
+main {
+  padding: 0 18.5%;
+}
+
+  /* HERO */
 .hero {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  padding: 0 18.5%;
 }
 
 .hero > h1 {
@@ -54,31 +57,102 @@ header {
   font-weight: 800;
 }
 
-.dettagli {
+.hero .dettagli {
   display: flex;
 }
 
-.dettagli > img {
+.hero .dettagli > img {
   width: 69%;
 }
 
-.dettagli > div p {
+.hero .dettagli > div p {
   padding-bottom: 10%;
 }
 
-.dettagli div a {
+.hero .dettagli div a {
   text-decoration: none;
   color: white;
   background-color: #0061fe;
   padding: 3% 4%;
 }
 
-.dettagli > div > div:first-of-type {
+.hero .dettagli > div > div:first-of-type {
   margin-top: 10%;
 }
 
-.dettagli > div > div:last-of-type {
+.hero .dettagli > div > div:last-of-type {
   font-size: 2.8em;
   margin-top: 18%;
 }
-/* \HERO */
+  /* \HERO */
+
+
+
+  /* PIANI */
+.piani > h2 {
+  font-size: 2.8em;
+  margin-bottom: 5%;
+}
+
+.piani label:first-of-type {
+  margin-right: 5%;
+}
+
+.piani .inputs {
+  margin-bottom: 4%;
+}
+    
+    /* CARDS */
+.cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  border: 1px lightgray solid;
+  width: 30%;
+}
+
+.card .tipo {
+  text-align: center;
+  line-height: 2.5em;
+  border-bottom: 1px lightgray solid;
+  margin-bottom: 10%;
+}
+
+.card > :not(.tipo) {
+  padding: 0 10%;
+}
+
+.card h3 {
+  font-size: 1.8em;
+  margin-bottom: 5%;
+}
+
+.card .costo {
+  line-height: 2em;
+  margin-bottom: 12%;
+}
+
+.card .costo span {
+  color: grey
+}
+
+.card .dettagli ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.card .dettagli ul li {
+  margin-bottom: 1.8em
+};
+
+
+a {
+  background-color: aqua;
+}
+    /* \CARDS */
+
+  /* \PIANI */
+
+/* \MAIN */
