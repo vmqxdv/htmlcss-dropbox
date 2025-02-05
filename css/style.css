@@ -6,7 +6,7 @@
 /* \GENERALE */
 
 
-main div {
+.dettagli > div {
   border: 1px green dotted;
 }
 
@@ -51,6 +51,7 @@ header {
 
 .hero > h1 {
   font-size: 4vw;
+  font-weight: 800;
 }
 
 .dettagli {
@@ -58,7 +59,26 @@ header {
 }
 
 .dettagli > img {
-  width: 70%;
+  width: 69%;
 }
 
+.dettagli > div p {
+  padding-bottom: 10%;
+}
+
+.dettagli div a {
+  text-decoration: none;
+  color: white;
+  background-color: #0061fe;
+  padding: 3% 4%;
+}
+
+.dettagli > div > div:first-of-type {
+  margin-top: 10%;
+}
+
+.dettagli > div > div:last-of-type {
+  font-size: 2.8em;
+  margin-top: 18%;
+}
 /* \HERO */
