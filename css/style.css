@@ -40,3 +40,25 @@ header {
   padding-right: 6%;
 }
 /* \HEADER */
+
+/* HERO */
+.hero {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 18.5%;
+}
+
+.hero > h1 {
+  font-size: 4vw;
+}
+
+.dettagli {
+  display: flex;
+}
+
+.dettagli > img {
+  width: 70%;
+}
+
+/* \HERO */
