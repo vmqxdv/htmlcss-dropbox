@@ -141,17 +141,98 @@ main {
 .card .dettagli ul {
   list-style-type: none;
   padding: 0;
+  margin-bottom: 20%;
+}
+
+.card .dettagli ul li {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5em;
 }
 
 .card .dettagli ul li {
   margin-bottom: 1.8em
-};
+}
 
+.card > div > a:first-of-type {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  background-color: #0061fe;
+  color: white;
+  padding: 4%;
+  margin-bottom: 12%;
+}
 
-a {
-  background-color: aqua;
+.card > div > p {
+  margin-bottom: 12%;
+}
+
+.card hr {
+  width: 18%;
+  margin-bottom: 16%;
+}
+
+.card .punti-sal .titolo {
+  margin-bottom: 12%;
+}
+
+.card .punti-sal i {
+  color: #0061fe;
+}
+
+.cards {
+  margin-bottom: 4%;
 }
     /* \CARDS */
+
+    /* ENTERPRISE */
+.enterprise {
+  border: 1px lightgray solid;
+  width: 100%;
+  margin-bottom: 10%;
+}
+
+.enterprise .flex-container {
+  display: flex;
+  align-items: flex-start;
+  padding: 0 2.5%;
+}
+
+.enterprise .tipo {
+  text-align: center;
+  line-height: 2.5em;
+  border-bottom: 1px lightgray solid;
+  margin-bottom: 2%;
+  width: 100%;
+}
+
+.enterprise .dettagli h3 {
+  font-size: 1.8em;
+  margin-bottom: 2%;
+}
+
+.enterprise .dettagli p:first-of-type {
+  margin-bottom: 6%;
+}
+
+.enterprise .container {
+  width: 35%;
+  text-align: right;
+  margin-top: 1%;
+}
+
+.enterprise .container a {
+  text-decoration: none;
+  color: white;
+  background-color: #0061fe;
+  padding: 2.5% 8%;
+}
+
+.enterprise .dettagli {
+  padding-bottom: 2%;
+}
+    /* \ENTERPRISE */
 
   /* \PIANI */
 
