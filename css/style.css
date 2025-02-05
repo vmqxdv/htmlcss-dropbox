@@ -1,0 +1,42 @@
+/* GENERALE */
+* {
+  margin: 0;
+  font-family: 'Open Sans';
+}
+/* \GENERALE */
+
+
+main div {
+  border: 1px green dotted;
+}
+
+
+/* HEADER */
+header {
+  display: flex;
+  font-size: large;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+.sx, .dx {
+  margin: 0 2%;
+  width: 25%;
+}
+
+.dx {
+  text-align: right;
+}
+
+.dx a {
+  padding-left: 6%;
+}
+
+.sx a {
+  padding-right: 6%;
+}
+/* \HEADER */
