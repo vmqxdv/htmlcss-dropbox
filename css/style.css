@@ -79,6 +79,40 @@ header .sx a {
 
 
 /* HEADER */
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  padding: 1% 0;
+  font-size: small;
+}
+
+header ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  padding: 0;
+  gap: 5%;
+  width: 30%;
+  padding-left: 1%;
+  padding-right: 2.5%;
+}
+
+header ul:last-of-type {
+  flex-direction: row-reverse;
+}
+
+header a:not(.diff) {
+  text-decoration: none;
+  color: black;
+}
+
+header .diff {
+  text-decoration: none;
+  background-color: #0061fe;
+  color: white;
+  padding: 18% 50%;
+}
 /* \HEADER */
 
 
