@@ -70,6 +70,7 @@ main > div:not(.hero) {
   justify-content: center;
   flex-direction: column;
   padding: 0 18.5%;
+  padding-top: 8.2%;
   margin-bottom: 3%;
 }
 
