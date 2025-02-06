@@ -62,7 +62,7 @@ main > div:not(.hero) {
   padding: 0 24%;
 }
 
-/* HERO */
+  /* HERO */
 .hero {
   display: flex;
   justify-content: center;
@@ -108,7 +108,7 @@ main > div:not(.hero) {
 .hero hr {
   border-color: lightgray;
 }
-/* \HERO */
+  /* \HERO */
 
 
 
@@ -275,6 +275,7 @@ main > div:not(.hero) {
   /* PARTNER */
 .partner {
   display: flex;
+  margin-bottom: 8%;
 }
 
 .partner img {
@@ -305,9 +306,34 @@ main > div:not(.hero) {
 
 
   /* BUSINESS */
-.business {
 
+    /* CARDS */
+.business h2 {
+  font-size: 2.5em;
+  margin-bottom: 8%;
 }
+
+.business .cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.business .card {
+  width: 30%;
+  margin-bottom: 6%;
+}
+
+.business img {
+  width: 100%;
+}
+
+.business h3 {
+  font-size: x-large;
+  margin-bottom: 10%;
+}
+    /* \CARDS */
+
   /* \BUSINESS */
 
-  /* \MAIN */
+/* \MAIN */
