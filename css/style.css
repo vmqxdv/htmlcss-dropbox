@@ -5,6 +5,16 @@
 }
 /* \GENERALE */
 
+/* BODY */
+.back {
+  z-index: -1;
+  position: absolute;
+  background-color: #b4d0e6;
+  width: 100%;
+  height: 84%;
+}
+/* \BODY */
+
 
 
 /* HEADER */
@@ -40,10 +50,12 @@ header {
 
 
 /* MAIN */
-
 main {
   padding: 0 18.5%;
 }
+/* \MAIN */
+
+
 
   /* HERO */
 .hero {
@@ -82,7 +94,7 @@ main {
 
 .hero .dettagli > div > div:last-of-type {
   font-size: 2.8em;
-  margin-top: 18%;
+  margin-top: 20%;
 }
   /* \HERO */
 
