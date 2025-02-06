@@ -228,14 +228,15 @@ header .diff {
 
 .enterprise .tipo {
   text-align: center;
-  line-height: 2.5em;
+  font-size: 0.8em;
+  line-height: 2.8em;
   border-bottom: 1px lightgray solid;
   margin-bottom: 2%;
   width: 100%;
 }
 
 .enterprise .dettagli h3 {
-  font-size: 1.8em;
+  font-size: x-large;
   margin-bottom: 2%;
 }
 
@@ -257,7 +258,7 @@ header .diff {
 }
 
 .enterprise .dettagli {
-  padding-bottom: 2%;
+  padding-bottom: 3%;
 }
     /* \ENTERPRISE */
 
