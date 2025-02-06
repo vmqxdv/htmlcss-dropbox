@@ -57,6 +57,10 @@ header .diff {
 /* \HEADER */
 
 
+/* MAIN */
+main > div:not(.hero) {
+  padding: 0 24%;
+}
 
 /* HERO */
 .hero {
@@ -111,7 +115,7 @@ header .diff {
   /* PIANI */
 .piani {
   border-top: 1px lightgray solid;
-  padding: 2.5% 24%;
+  padding: 2.5% 0;
 }
 
 .piani > h2 {
@@ -128,17 +132,17 @@ header .diff {
 }
     
     /* CARDS */
-.cards {
+.piani .cards {
   display: flex;
   justify-content: space-between;
 }
 
-.card {
+.piani .card {
   border: 1px lightgray solid;
   width: 30%;
 }
 
-.card .tipo {
+.piani .card .tipo {
   font-size: 0.9em;
   text-align: center;
   line-height: 2.8em;
@@ -146,44 +150,44 @@ header .diff {
   margin-bottom: 10%;
 }
 
-.card > :not(.tipo) {
+.piani .card > :not(.tipo) {
   padding: 0 9%;
 }
 
-.card h3 {
+.piani .card h3 {
   font-size: x-large;
   margin-bottom: 5%;
 }
 
-.card .costo {
+.piani .card .costo {
   font-size: smaller;
   line-height: 2.2em;
   margin-bottom: 12%;
 }
 
-.card .costo span {
+.piani .card .costo span {
   font-size: 1em;
   color: grey
 }
 
-.card .dettagli ul {
+.piani .card .dettagli ul {
   list-style-type: none;
   padding: 0;
   margin-bottom: 20%;
 }
 
-.card .dettagli ul li {
+.piani .card .dettagli ul li {
   display: flex;
   align-items: baseline;
   gap: 0.4em;
 }
 
-.card .dettagli ul li {
+.piani .card .dettagli ul li {
   font-size: 0.9em;
   margin-bottom: 1.5em
 }
 
-.card > div > a:first-of-type {
+.piani .card > div > a:first-of-type {
   display: block;
   text-decoration: none;
   text-align: center;
@@ -193,24 +197,24 @@ header .diff {
   margin-bottom: 12%;
 }
 
-.card > div > p {
+.piani .card > div > p {
   margin-bottom: 12%;
 }
 
-.card hr {
+.piani .card hr {
   width: 18%;
   margin-bottom: 16%;
 }
 
-.card .punti-sal .titolo {
+.piani .card .punti-sal .titolo {
   margin-bottom: 12%;
 }
 
-.card .punti-sal i {
+.piani .card .punti-sal i {
   color: #0061fe;
 }
 
-.cards {
+.piani .cards {
   margin-bottom: 4%;
 }
     /* \CARDS */
@@ -271,7 +275,6 @@ header .diff {
   /* PARTNER */
 .partner {
   display: flex;
-  padding: 0 24%;
 }
 
 .partner img {
@@ -299,4 +302,12 @@ header .diff {
 }
   /* \PARTNER */
 
-/* \MAIN */
+
+
+  /* BUSINESS */
+.business {
+
+}
+  /* \BUSINESS */
+
+  /* \MAIN */
