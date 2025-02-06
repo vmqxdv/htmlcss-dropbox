@@ -21,6 +21,8 @@
 
 /* HEADER */
 header {
+  position: fixed;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   background-color: white;
@@ -358,7 +360,6 @@ main > div:not(.hero) {
 /* FOOTER */
 footer {
   background-color: black;
-  color: lightgrey;
   padding: 5% 18%;
   padding-bottom: 3%;
 }
@@ -382,6 +383,11 @@ footer ul {
 
 footer li {
   margin-bottom: 10%;
+}
+
+footer a {
+  text-decoration: none;
+  color: lightgray;
 }
 
 footer hr {
